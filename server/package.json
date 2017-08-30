@@ -1,0 +1,12 @@
+{
+  "name": "realtalk",
+  "version": "0.0.1",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "nedb": "^1.8.0",
+    "socket.io": "^2.0.3",
+    "uuid": "^3.1.0"
+  }
+}

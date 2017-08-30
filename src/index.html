@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css" />
+  <!-- <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css" /> -->
+</head>
+<body>
+  <div class="container" id="container">
+    <main></main>
+  </div>
+</body>
+
+<script src='../node_modules/riot/riot+compiler.min.js'></script>
+<script src="../node_modules/socket.io-client/dist/socket.io.js"></script>
+<script src="./js/util.js"></script>
+<script src="./pages/main.tag" type="riot/tag"></script>
+<script>
+  riot.mount('main');
+</script>
+
+</html>

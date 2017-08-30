@@ -1,0 +1,9 @@
+{
+  "main": {
+    "width": 500,
+    "height": 300
+  },
+  "server": {
+    "host": "http://localhost:3434"
+  }
+}
